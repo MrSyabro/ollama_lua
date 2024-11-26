@@ -9,6 +9,7 @@ description = {
 }
 dependencies = {
    "lua >= 5.2",
+   "obj",
    "rest",
 }
 build = {
