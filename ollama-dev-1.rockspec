@@ -1,10 +1,12 @@
 package = "ollama"
 version = "dev-1"
 source = {
-   url = "*** please add URL for source tarball, zip or repository here ***"
+   url = "git+https://git@github.com/MrSyabro/ollama_lua.git",
+   branch = "master"
 }
 description = {
-   homepage = "*** please enter a project homepage ***",
+   summary = "Simple Ollama REST API",
+   homepage = "https://github.com/MrSyabro/ollama_lua",
    license = "MIT/X11"
 }
 dependencies = {
