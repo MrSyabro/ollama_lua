@@ -149,4 +149,11 @@ local M = {
     end
 }
 
+---Устанавливает новый URL для сервера Ollama
+---@param url string
+function M.set_endpoint(url)
+    ollama = REST:new(url)
+    return M
+end
+
 return setmetatable(M, M)
